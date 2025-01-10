@@ -1,5 +1,7 @@
 {
     "files.associations": {
+      "*.ndjson": "jsonl",
+      "*.dbclient-js": "javascript",
       "iostream": "cpp",
       "stdio.h": "c",
       "string.h": "c",
@@ -31,6 +33,11 @@
       "thread": "cpp",
       "ratio": "cpp",
       "typeinfo": "cpp",
-      "utility": "cpp"
+      "utility": "cpp",
+      "set": "cpp"
+    },
+    "editor.formatOnType": true,
+    "[commonlisp]": {
+      "editor.wordSeparators": "`|;:'\",()"
     }
 }

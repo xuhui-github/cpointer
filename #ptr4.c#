@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <setjmp.h>
 #include <stddef.h>
+
+
+#include <sys/socket.h>
+#include <poll.h>
+#include 
+
 int main(void){
   char c_var;
   int i_var;
